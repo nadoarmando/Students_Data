@@ -1,0 +1,178 @@
+/*body{
+    background-color: #3e3f77;
+   
+}
+.container{
+ 
+    display: flex;
+}
+img{
+    width: 50%;
+    height: 1000px;
+  margin-top: 6%;
+  margin-bottom: 10%;
+}
+.form-container{
+    margin-top: 6%;
+  background-color: #c8cbff;
+  width: 70%;
+  height: 1000px;
+}
+form{
+    margin-top: 12%;
+}*/
+/*body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.form-container {
+    text-align: center;
+}
+
+form {
+    margin-top: 20px;
+}
+
+h1, h3 {
+    margin: 10px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c8cbff;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+      margin-top: 0px;
+    padding: 20px;
+    background-color: #fffffd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin-top: 5%;
+  } /* Use flexbox to align items */
+
+
+.image-container {
+    flex: 5; /* Take up 40% of the container */
+    padding-right: 20px; /* Add some space between image and form */
+}
+
+.image-container img {
+    display: block;
+    max-width: 90%;
+    height: auto;
+}
+
+.form-container {
+    flex: 5; /* Take up 60% of the container */
+}
+
+form {
+    text-align: center;
+    padding-top:10%;
+}
+
+h1, h3 {
+    margin: 10px 0;
+}
+.data-form{
+    display: flex;
+    margin-top: 10%;
+}
+
+label {
+    flex: 2;
+    padding: 1%;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="submit"] {
+    flex: 8;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    white-space: nowrap;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer; 
+    width: 100%; 
+   padding: 10px;
+   margin-top: 5%;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   box-sizing: border-box;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+/*//////////Table///*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.rowColor:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray color for even rows */
+
+}
+.rowColor:nth-child(odd) {
+    background-color: #ffffff; /* White color for odd rows*/ 
+}
+td {
+    padding: 8px;
+    text-align: center;
+}
